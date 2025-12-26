@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Admin control
+// Admin control 
 const adminRoutes = require('./routes/admin');
 app.use('/admin', adminRoutes);
 
